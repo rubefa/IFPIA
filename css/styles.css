@@ -1,0 +1,55 @@
+@font-face {
+  font-family: vadiny;
+  src: url("./DeliciousHandrawn-Regular.ttf");
+}
+
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 10vw;
+  font-family: "vadiny";
+}
+
+P {
+  border: 3px red solid;
+  width: 40%;
+  padding: 10px;
+  margin: 5px;
+  text-transform: uppercase;
+  line-height: 2em;
+  font-weight: bold;
+}
+img:hover {
+  border-radius: 50%;
+}
+p img {
+  width: 80%;
+  float: right;
+  transition: all 1s;
+}
+ul li {
+  list-style-type: none;
+  float: left;
+  margin: 10px;
+  background-color: aqua;
+}
+#error {
+  color: red;
+  font-size: .90em;
+  font-style: italic;
+}
+#success {
+  color: green;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.error {
+  color: red;
+  font-size: .90em;
+  font-style: italic;
+}
+.success {
+  color: green;
+  font-size: 1.5em;
+  font-style: italic;
+}

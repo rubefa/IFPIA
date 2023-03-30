@@ -1,0 +1,54 @@
+
+#un {
+  color: blueviolet;
+  background-image: url("../imgs/profile-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red !important;
+}
+p {
+  position: relative;
+  background-color: #ddd !important;
+  height: 300px;
+}
+p.deux {
+  position: absolute;
+  bottom: 35px;
+  left: 25px;
+  background-color: aquamarine;
+  height: 90px;
+  max-width: 700px;
+}
+div.ex1 {
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+div.ex2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+nav {
+  transition: all 1s ease;
+}
+nav:hover {
+  transform: skew(20deg, 10deg)
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  width: 180px;
+  margin: -9px;
+  padding: 10px;
+  background-color: yellowgreen;
+  text-align: center;
+  border: 2px black solid;
+}
+.ve {
+  background-color: yellow;
+  color: gray;
+}

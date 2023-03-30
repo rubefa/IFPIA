@@ -1,0 +1,82 @@
+
+body {
+  background-color: grey;
+  margin: 20px;
+}
+p {
+  color: red;
+  background-color: rgba(29, 37, 27, 0.9);
+  margin-bottom: 60px;
+  height: 200px;
+  width: 450px;
+  box-shadow: -6px -6px 10px white inset;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+#p2 {
+  color: blue;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  border: 2px solid white;
+  /* border-radius: 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+p.p3 {
+  color: chocolate;
+  /* margin: inherit; */
+}
+
+h1 {
+  color: #ff6347;
+}
+.parent {
+  width: 700px;
+  height: 600px;
+  background: url('../imgs/feed-1.jpg');
+}
+.fille {
+  position: relative;
+  color: wheat;
+  bottom: -550px;
+  font-size: 26px;
+  height: 90px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+a {
+  margin-left: 80px;
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+  color: lime;
+  font-size: 2em;
+}
+a:active {
+  color: yellow;
+}
+a:visited {
+  color: aqua;
+}
+input {
+  width: 100px;
+  transition: all 3s ease;
+}
+
+input:focus {
+  width: 300px;
+  border: 2px wheat double;
+  height: 30px;
+}
+
+
+/* iozsdaIEOFf
+zdajLK
+ZADINOZAD */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test - Vadiny</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h1>Page web test</h1>
+ 
+  
+  Allez à <a href="index.html">l'index</a><br/><br/>
+
+  <table border="3">
+    <tr><th>Entete 1</th><th>Entete 2</th><th>Entete 3</th></tr>
+    <tr><td>cellule 1 1</td><td>cellule 1 2</td><td>cellule 1 3</td></tr>
+    <tr><td>cellule 2 1</td><td>cellule 2 2</td><td>cellule 2 3</td></tr>
+    <tr>
+      <td colspan="3">Cellule fusionnée</td>
+    </tr>
+  </table>
+
+  <ol type="I">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ol>
+  <dl>
+    <dt>Avocat</dt>
+    <dd>C'est un fruit</dd>
+    <dt id="tomate">Tomate</dt>
+    <dd>C'est un legume</dd>
+    <dt>Chaise</dt>
+    <dd>C'est un meuble</dd>
+  </dl>
+
+  <input type="text" id="reg" />
+
+  <button onclick="change()">Changer le nom</button>
+  <button onclick="imprime()">Imprime la page</button>
+  <button onclick="majeur()">Verification d'age</button>
+  <button onclick="multiplication()">Multiplication</button>
+  <button onclick="regex(document.getElementById('reg').value)">Regex</button><br>
+  <div id="message"></div>
+
+  <script src="js/script.js">
+  </script>
+</body>
+</html>
